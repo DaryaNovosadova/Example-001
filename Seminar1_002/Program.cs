@@ -1,7 +1,10 @@
-﻿int number = 3;
+﻿Console.WriteLine("Введите число: ");
+int number = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите квадрат числа: ");
+int kv = int.Parse(Console.ReadLine());
 int sqr = number * number;
 
-if(sqr == 25)
+if(sqr == kv)
 {
     Console.WriteLine("Да");
 }
