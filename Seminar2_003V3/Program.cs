@@ -9,6 +9,7 @@ while(copy > 0)
     revers = revers + digit;
     copy = copy / 10;
 }
+Console.WriteLine($"{number} {revers}");
 Console.WriteLine(revers);
 if(number == revers)
     Console.WriteLine("Polindrome");
